@@ -1,0 +1,11 @@
+Package: g15lcd
+Version: 1.2-3
+Priority: optional
+Section: utils
+Architecture: all
+Essential: no
+Depends: libc6, libstdc++6, libgcc1, libusb-0.1-4
+Maintainer: Chris Olstrom <colstrom@gmail.com>
+Provides: g15lcd
+Description: Utility to provide support for Logitech G15 keyboard LCDs.
+

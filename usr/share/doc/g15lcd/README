@@ -1,0 +1,28 @@
+                                                                      Synopsis
+------------------------------------------------------------------------------
+
+Name
+	g15lcd
+Version
+	1.2
+Author
+	Philip Lawatsch <philip@waug.at>
+Description
+	Utility to enable improved support of Logitech G15 keyboards.
+WWW
+	http://www.waug.at/g15lcd/
+
+                                                                         Files
+------------------------------------------------------------------------------
+
+/etc/init.d/g15lcd
+  |
+  +----> Initscript (not provided upstream).
+
+/usr/bin/g15lcd
+  |
+  +----> The script itself, not much to it.
+
+/var/run/g15lcd
+  |
+  +----> Pipe for reading/writing to (configurable).
